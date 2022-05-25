@@ -44,6 +44,8 @@ class MyLayout(Widget):
 
 kv = Builder.load_file('update_label.kv')
 
+# Main app
+
 
 class AwesomeApp(App):
     def build(self):
